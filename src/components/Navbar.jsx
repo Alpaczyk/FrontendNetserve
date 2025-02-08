@@ -7,7 +7,7 @@ function Navbar() {
             <Nav>
                 <NavMenu>
                     <NavLink to="/">Strona główna</NavLink>
-                    <NavLink to="/App">Sklep</NavLink>
+                    <NavLink to="/Shop">Sklep</NavLink>
                 </NavMenu>
             </Nav>
         </>
