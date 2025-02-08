@@ -5,16 +5,17 @@ import{ BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Home.jsx";
 import {createRoot} from "react-dom/client";
 import Navbar from "../components/Navbar.jsx";
+import Contact from "./Contact.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
       <Router>
-          <Navbar>
+          <Navbar />
           <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/Shop" element={<Shop />} />
+              <Route path="/Contact" element={<Contact/>}/>
           </Routes>
-          </Navbar>
       </Router>
   </StrictMode>
 );

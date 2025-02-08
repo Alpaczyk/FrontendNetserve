@@ -8,6 +8,7 @@ function Navbar() {
                 <NavMenu>
                     <NavLink to="/">Strona główna</NavLink>
                     <NavLink to="/Shop">Sklep</NavLink>
+                    <NavLink to="/Contact">Kontakt</NavLink>
                 </NavMenu>
             </Nav>
         </>
